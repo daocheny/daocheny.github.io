@@ -43,9 +43,22 @@ table {
 
 th {
   padding-left: 1em;
-  padding-right: 1em;
   padding-top: 2px;
   padding-bottom: 2px;
+  text-align: left;
+}
+
+.both {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.left {
+  margin-left: 5px;
+}
+
+.right {
+  margin-right: 5px;
 }
 
 .wrap {
