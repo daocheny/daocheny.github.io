@@ -80,8 +80,6 @@ ul {
 
 .wrap {
   border: 0.2vw solid var(--light2);
-  border-bottom: 0.4vw solid var(--light2);
-  border-right: 0.4vw solid var(--light2);
   margin: 0px auto;
   width: max(50%, 300px);
   padding: 0px 1em;
