@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-html {
+body {
   --dark1: #342009;
   --dark2: #975102;
   --mid: #FB8604;
   --light2: #FDB768;
   --light1: #FEEEDC;
+}
+
+body.darkmode {
+  --light1: #342009;
+  --light2: #975102;
+  --mid: #FB8604;
+  --dark2: #FDB768;
+  --dark1: #FEEEDC;
 }
 
 body {
@@ -83,4 +91,11 @@ ul {
   margin: 0px auto;
   width: max(50%, 300px);
   padding: 0px 1em;
+  position: relative;
+}
+
+#darkmode {
+  position: absolute;
+  top: 1.5vw;
+  right: 1.5vw;
 }
