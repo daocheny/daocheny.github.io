@@ -1,5 +1,6 @@
 let body;
 let darkmode;
+let rotate = 0;
 function handleLoad () {
   body = document.getElementsByTagName("BODY")[0];
   darkmode = document.getElementById("darkmode");
@@ -12,6 +13,8 @@ function handleLoad () {
   }
 }
 function switchMode () {
+  rotate++;
+  darkmode.style.transform = `rotate(${180*rotate}deg)`;
   if (body.classList.toggle("darkmode")) {
     darkmode.title = "Click me to turn off dark mode!";
     document.cookie = "t";
