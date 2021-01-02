@@ -98,4 +98,7 @@ ul {
   position: absolute;
   top: 1.5vw;
   right: 1.5vw;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  /* translate: rotate(0deg); */
 }
