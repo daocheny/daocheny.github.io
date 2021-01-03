@@ -132,3 +132,12 @@ ul {
   right: 5vw;
   top: 5vh;
 }
+
+@media (max-aspect-ratio: 1/1) {
+  .cherry, .night {
+    display: none;
+  }
+  .wrap {
+    width: 90%;
+  }
+}
