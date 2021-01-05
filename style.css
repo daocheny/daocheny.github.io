@@ -108,26 +108,26 @@ ul {
 }
 
 #cleft {
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 40vh;
 }
 
 #cright {
-  position: absolute;
+  position: fixed;
   right: 0px;
   top: 10vh;
 }
 
 #nleft {
-  position: absolute;
+  position: fixed;
   left: 0px;
   width: 23%;
   top: 35vh;
 }
 
 #nright {
-  position: absolute;
+  position: fixed;
   width: 5%;
   right: 5vw;
   top: 5vh;
